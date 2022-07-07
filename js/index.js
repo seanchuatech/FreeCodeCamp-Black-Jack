@@ -192,3 +192,89 @@ function newCard() {
 // console.log(airbnb.tags[1]);
 
 //4:10:50 -recap too sleepy
+
+// EXERCISE 1
+// let person = {
+//     name: "Sean",
+//     age: "26",
+//     country: "Philippines"
+// }
+
+// function logData() {
+//     console.log(person.name + " is " + person.age + " years old and lives in " + person.country);
+// }
+
+// logData();
+
+//EXERCISE 2
+
+// let passengerAge = 67;
+
+// if (passengerAge < 6) {
+//     console.log("Free");
+// } else if (passengerAge >= 6 && passengerAge <= 17) {
+//     console.log("Child Discount");
+// } else if (passengerAge >= 18 && passengerAge <= 26) {
+//     console.log("Student Discount");
+// } else if (passengerAge >= 27 && passengerAge <= 66) {
+//     console.log ("Full Price");
+// } else if (passengerAge > 66) {
+//     console.log("Senior Cetizen Discount");
+// } else {
+//     console.log("Something went wrong!");
+// }
+
+// EXERCISE 3
+
+// let largestCountries = ["CHINA", "INDIA", "USA", "INDONESIA", "PAKISTAN"];
+
+// for (let i = 0; i < largestCountries.length; i++) {
+//     console.log("- " + largestCountries[i]);
+// }
+
+// let largestCountries = ["TUVALU", "INDIA", "USA", "INDONESIA", "MONACO"];
+
+// largestCountries.shift();
+// largestCountries.unshift("CHINA");
+// largestCountries.pop();
+// largestCountries.push("PAKISTAN");
+// for (let i = 0; i < largestCountries.length; i++) {
+//     console.log("-"+largestCountries[i]);
+
+// }
+
+// EXERCISE 4
+
+// let dayOfMonth = 13;
+// let weekday = "Friday";
+
+// if (dayOfMonth === 13 && weekday === "Friday") {
+//     console.log("Spooky!");
+// } else {
+//     console.log("Not Spooky!");
+// }
+
+// EXERCISE 5
+
+// let hands = ["ROCK", "PAPER", "SCISSOR"];
+
+
+// function randomArray() {
+    
+//     let randomIndex = Math.floor(Math.random() * hands.length);
+//     console.log(randomIndex);
+//     console.log(hands[randomIndex]);
+// }
+
+// randomArray();
+
+
+//EXERCISE 6 
+
+// let fruit = ["APPLE", "ORANGE", "APPLE", "APPLE", "ORANGE"];
+
+// for (let i = 0; i < fruit.length; i++) {
+//     if (fruit[i] === "APPLE") {
+//         console.log(fruit[i]);
+//     }
+// }
